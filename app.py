@@ -14,6 +14,7 @@ tampil_hor=np.concatenate((imggambar,img_binary),axis=1)
 print("A")
 print("B")
 print("Feature A")
+print("Feature B")
 cv2.imshow('hasil',tampil_hor)
 cv2.waitKey(0)
 cv2.destroyAllWindows
