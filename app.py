@@ -10,6 +10,8 @@ thresh = 150
 img_binary = cv2.threshold(imggambar, thresh, 255, cv2.THRESH_BINARY)[1]
 tampil_hor=np.concatenate((imggambar,img_binary),axis=1)
 
+print("A")
+print("B")
 cv2.imshow('hasil',tampil_hor)
 cv2.waitKey(0)
 cv2.destroyAllWindows
