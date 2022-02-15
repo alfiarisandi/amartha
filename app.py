@@ -1,4 +1,5 @@
 
+from msilib.schema import Feature
 import cv2
 import matplotlib
 import numpy as np
@@ -12,6 +13,7 @@ tampil_hor=np.concatenate((imggambar,img_binary),axis=1)
 
 print("A")
 print("B")
+print("Feature A")
 cv2.imshow('hasil',tampil_hor)
 cv2.waitKey(0)
 cv2.destroyAllWindows
